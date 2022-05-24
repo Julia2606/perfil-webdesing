@@ -1,0 +1,43 @@
+/*0123456789ABCDEF*/
+@font-face {
+    font-family: Júlia;
+    src: url(Spring\ in\ May.ttf);
+}
+
+:root {
+    --cor-fundo: #DECFDC;
+    --fonte1: Júlia;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte1);
+    width: 500px; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body p {
+    color:#9F65E0;
+    text-align: justify
+}
+
+div {
+    text-align: center;
+}
+h1 {
+    color: #9F65E0;
+   
+}
+
+UL LI A {
+    COLOR: #9F87E0;
+}
+img {
+    border-radius: 50%;
+    border: 6px solid;
+    border-color:#9F65E0;
+    border-style: solid;
+}
